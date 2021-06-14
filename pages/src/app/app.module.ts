@@ -7,6 +7,7 @@ import { ReactiveLoginComponent } from './components/login/reactive-login/reacti
 import { ReactiveFormsModule } from '@angular/forms';
 import {MaterialModule} from './matrial/matrial.module';
 import { SlidingFormComponent } from './components/sliding-form/sliding-form.component';
+import { CssGridComponent } from './components/css-grid/css-grid.component';
 
 
 @NgModule({
@@ -14,6 +15,7 @@ import { SlidingFormComponent } from './components/sliding-form/sliding-form.com
     AppComponent,
     ReactiveLoginComponent,
     SlidingFormComponent,
+    CssGridComponent,
 
   ],
   imports: [
